@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: configserver
+  profiles:
+    active: native
+  cloud:
+    config:
+      enabled: false
+      server:
+        native:
+          searchLocations: C:\devel\Code\Test\spring-cloud\configuration-service\src\main\resources\
+encrypt:
+  failOnError: false
