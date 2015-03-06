@@ -8,6 +8,6 @@ spring:
       enabled: false
       server:
         native:
-          searchLocations: C:\devel\Code\Test\spring-cloud\configuration-service\src\main\resources\
+          searchLocations: C:\devel\Code\Test\spring-cloud\configuration-service\src\main\resources\config
 encrypt:
   failOnError: false
