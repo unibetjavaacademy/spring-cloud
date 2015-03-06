@@ -16,14 +16,14 @@ import org.springframework.web.bind.annotation.RestController;
  * Date: 05/03/2015
  * Time: 13:39
  */
-//@Configuration
-//@EnableAutoConfiguration
-//@EnableEurekaClient
-//@RestController
+@Configuration
 @EnableAutoConfiguration
-@ComponentScan
-@EnableDiscoveryClient
+@EnableEurekaClient
 @RestController
+//@EnableAutoConfiguration
+//@ComponentScan
+//@EnableDiscoveryClient
+//@RestController
 public class BasicClient {
 
     @RequestMapping("/")
@@ -32,7 +32,7 @@ public class BasicClient {
     }
 
     public static void main(String[] args) {
-        new SpringApplicationBuilder(BasicClient.class).web(true).run(args);
-//        SpringApplication.run(BasicClient.class, args);
+//        new SpringApplicationBuilder(BasicClient.class).web(true).run(args);
+        SpringApplication.run(BasicClient.class, args);
     }
 }
