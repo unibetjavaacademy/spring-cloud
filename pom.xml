@@ -25,6 +25,7 @@
         <module>configuration-service</module>
         <module>discovery-service</module>
         <module>client</module>
+        <module>service-provider</module>
         <!--<module>spring-boot</module>-->
     </modules>
 
