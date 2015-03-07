@@ -1,2 +1,0 @@
-server:
-  port: ${service.provider.port:0}
