@@ -1,7 +1,9 @@
+server:
+  port: 0
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://${config.host:'localhost'}:${config.port:8761}/eureka
+      defaultZone: http://${config.host:localhost}:${config.port:8761}/eureka
 service:
   response:
-    delay: 0
+    delay: 5

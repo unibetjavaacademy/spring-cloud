@@ -21,6 +21,6 @@ public class MockService {
     public String service() throws InterruptedException {
         Integer delay = environment.getProperty("service.response.delay", Integer.class);
         Thread.sleep(delay);
-        return String.format("Slept during %d", delay);
+        return String.format("OK(%d ms)", delay);
     }
 }

@@ -26,6 +26,7 @@
         <module>discovery-service</module>
         <module>client</module>
         <module>service-provider</module>
+        <module>service-consumer</module>
         <!--<module>spring-boot</module>-->
     </modules>
 
